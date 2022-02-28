@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+}
+.dark-text {
+  color: hsl(218, 22%, 67%);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(230 239 246);
+}
+.grid-component {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  display: grid;
+  width: 600px;
+  border-radius: 50px;
+}
+.community-section {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #fff;
+  padding: 40px 25px;
+  border-radius: 10px 10px 0 0;
+}
+.community-section .main-community-section-heading {
+  color: hsl(179, 62%, 43%);
+  font-size: 23px;
+}
+.community-section .main-community-sub-heading {
+  margin: 15px 0;
+  color: hsl(71, 73%, 54%);
+  font-size: 18px;
+}
+.community-section .main-community-text {
+  color: hsl(218, 22%, 67%);
+  line-height: 170%;
+}
+
+.community-details-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.community-details-section .community-subscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: hsl(179, 62%, 43%);
+  padding: 40px 25px;
+  border-radius: 0 0 0 10px;
+}
+.community-details-section .community-subscription .heading {
+  font-size: 18px;
+  color: hsl(204, 43%, 93%);
+  font-weight: 700;
+}
+
+.community-details-section .community-subscription .community-pricing {
+  color: hsl(204, 43%, 93%);
+  padding-top: 12px;
+}
+
+.community-details-section .community-subscription .big-font {
+  font-size: 27px;
+  color: hsl(204, 43%, 93%);
+  font-weight: bold;
+}
+.community-details-section .community-subscription .community-pricing-details {
+  color: hsl(204, 43%, 93%);
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.community-signup-button {
+  width: 90%;
+  padding: 8px;
+  margin-top: 20px;
+  background-color: hsl(71, 73%, 54%);
+  color: hsl(204, 43%, 93%);
+  font-weight: bold;
+  border: 0px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.community-why-us {
+  background-color: rgb(74 189 189);
+  border-radius: 0 0 10px 0;
+  padding: 40px 25px;
+}
+.community-why-us .heading-why-us {
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(204, 43%, 93%);
+}
+.community-why-us .community-why-text {
+  margin-top: 12px;
+  color: hsl(204, 43%, 93%);
+  font-size: 14px;
+}
+
+/* - Cyan: hsl(179, 62%, 43%)
+rgb(74 189 189)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%) */
